@@ -50,4 +50,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 //Add DataBase Connection to PostgreSQL
     builder.Services.AddDbContext<GameDbContext>(options =>
-    )
+        options.UseNpgsql(builder.Configuration.GetConncectionString("DefaultConnection")));
+        
+//Enable Controllers for APIs
+builder.Services.AddControllers();
+
+var app = builder.Build();
+app.MapControllers();
+app.Run();
