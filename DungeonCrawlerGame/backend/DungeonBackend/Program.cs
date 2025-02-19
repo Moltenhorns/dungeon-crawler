@@ -42,3 +42,12 @@ record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
 {
     public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 }
+using DungeonBackend.Models;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+
+var builder = WebApplication.CreateBuilder(args);
+
+//Add DataBase Connection to PostgreSQL
+    builder.Services.AddDbContext<GameDbContext>(options =>
+    )
