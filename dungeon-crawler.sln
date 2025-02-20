@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DungeonCrawlerGame", "DungeonCrawlerGame", "{B29DDB13-B55A-893B-3F5B-3FA100B44A60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{65E74935-3216-CA90-CB8D-76586EB4415B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonBackend", "DungeonCrawlerGame\backend\DungeonBackend\DungeonBackend.csproj", "{FE19B07B-1AF2-3040-A7B1-103609CAFC6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE19B07B-1AF2-3040-A7B1-103609CAFC6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE19B07B-1AF2-3040-A7B1-103609CAFC6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE19B07B-1AF2-3040-A7B1-103609CAFC6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE19B07B-1AF2-3040-A7B1-103609CAFC6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{65E74935-3216-CA90-CB8D-76586EB4415B} = {B29DDB13-B55A-893B-3F5B-3FA100B44A60}
+		{FE19B07B-1AF2-3040-A7B1-103609CAFC6D} = {65E74935-3216-CA90-CB8D-76586EB4415B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68DA1C00-04DA-40E1-91BC-788D489E32FD}
+	EndGlobalSection
+EndGlobal
